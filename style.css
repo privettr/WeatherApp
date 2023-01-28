@@ -1,0 +1,55 @@
+body {
+    background-image: url('weather.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 4.5vmin;
+    height: 200vmin
+}
+
+#description {
+    text-transform: capitalize;
+}
+
+#location {
+    text-align: center;
+    width: 35vmin;
+    font-size: 3vmin;
+    border-radius: 10px;
+    height: 2vmin;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    width: 70vmin;
+    height: 90vmin;
+    top: 2vmin;
+    display: inline-block;
+    position: relative;
+    color: white;
+    padding-top: 3vmin;
+    padding-bottom: 1vmin;
+}
+
+.item {
+    padding: 2vmin;
+}
+
+button {
+    color: black;
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 5px;
+    border: none;
+}
+
+#symbol {
+    width: 15vmin;
+    height: 15vmin;
+}
+
+h1 {
+    font-size: 4.5vmin;
+    font-family: sans-serif;
+}
